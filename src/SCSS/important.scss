@@ -1,4 +1,4 @@
-$breakpoint-tablet: 768px;
+$breakpoint-phone: 376px;
 
 .importantBox {
 
@@ -55,6 +55,59 @@ $breakpoint-tablet: 768px;
 }
 
 
-@media (min-width: $breakpoint-tablet) {
+@media (min-width: $breakpoint-phone) {
+
+  .importantBox {
+
+     width: 25%;
+     height: 10%;
+     background-color: beige;
+     margin: unset;
+     margin-top: 2%;
+     margin-left: 2%;
+     margin-bottom: 1%;
+     border-radius: 6px;
+
+ .importantWarning {
+    font-size: 1em;
+    color: black;
+    margin-left: 4%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+
+
+   .fa-exclamation-circle {
+     color: pink;
+     margin-right: 4%
+   }
+
+ }
+
+ .importantNews {
+
+    font-size: 0.85em;
+    margin-left: 4%;
+    margin-bottom: 3%;
+
+   .importantTitle {
+
+     color: black;
+
+   }
+
+   .importantText {
+
+     color: black;
+
+   }
+
+ }
+
+
+
+}
+
 
 }

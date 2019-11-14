@@ -1,8 +1,23 @@
 @import '/SCSS/important';
 @import '/SCSS/dropdowns';
+@import '/SCSS/needHelp';
+
+$breakpoint-phone: 376px;
 
 body {
 
   background-color: rgb(31, 42, 58);
+  color: white;
+
+}
+
+@media (min-width: $breakpoint-phone) {
+
+  body {
+
+    background-color: white;
+    color: black;
+
+  }
 
 }

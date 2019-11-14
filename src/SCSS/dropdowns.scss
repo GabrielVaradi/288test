@@ -1,3 +1,30 @@
+
+  .accordionNoLinks {
+
+    border-bottom-style: groove;
+    margin-bottom: 5%;
+    padding-bottom: 8px;
+
+
+  .accordionTitle {
+
+    color : grey;
+
+  }
+
+  .learnMore {
+
+    color : grey;
+  }
+
+}
+
+.accordionExpanded {
+
+    background-color: rgb(64, 75, 99);
+
+  }
+
 .accordion {
 
   background-color: rgb(31, 42, 58);
@@ -10,12 +37,6 @@
   margin-bottom: 5%;
   padding-bottom: 8px;
 
-  .accordionExpanded {
-
-    background-color: rgb(64, 75, 99);
-
-  }
-
   .accordionBody {
 
     color : white;
@@ -26,8 +47,10 @@
 
     color : grey;
 
-
   }
+
+
+
 
 }
 
