@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Important from './Important.js';
-import Development from './Development.js';
+import Dropdowns from './Dropdowns.js';
 import './App.scss';
 
 class App extends Component {
