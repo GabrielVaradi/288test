@@ -13,6 +13,9 @@ $breakpoint-phone: 376px;
     display: flex;
     flex-direction: column;
     width: 30%;
+    column-count: 2;
+    flex-wrap: wrap;
+    height: 100%;
 
   }
   .fullScreenCardImage {
