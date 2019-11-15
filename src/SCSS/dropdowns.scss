@@ -1,19 +1,28 @@
+
+
 .accordionNoLinks {
 
     border-bottom-style: groove;
     margin-bottom: 5%;
     padding-bottom: 8px;
 
+  .fa-angle-right {
+
+  position: relative;
+  left: 5%;
+
+  }
 
   .accordionTitle {
 
-    color : grey;
+    color: grey;
 
   }
 
   .learnMore {
 
-    color : grey;
+    color: grey;
+    height: 20px;
   }
 
 }
@@ -38,13 +47,13 @@
 
     .accordionBody {
 
-      color : white;
+      color: white;
 
     }
 
     .accordionTitle {
 
-      color : grey;
+      color: grey;
 
     }
   }

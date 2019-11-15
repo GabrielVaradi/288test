@@ -11,7 +11,9 @@ const FullScreenDropdowns = ({ subjects }) => {
            return (
             <Card className='fullScreenThemesOneLink'>
               <Card.Text className='oneLinkCard'> {item.title} </Card.Text>
-              <Card.Link className='oneLink' href="#">{item.links}</Card.Link>
+              <Card.Link className='oneLink' href="#">{item.links}
+              <i class="fa fa-angle-right"></i>
+              </Card.Link>
             </Card>
             )
          }
@@ -19,7 +21,11 @@ const FullScreenDropdowns = ({ subjects }) => {
             <Card className='fullScreenThemes'>
               <div className='fullScreenTitles'>
                 <Card.Title className='fullScreenThemeTitle'> {item.title} </Card.Title>
-                <Card.Title className='fullScreenThemeTitleLink'> {item.titleLink} </Card.Title>
+                <Card.Title className='fullScreenThemeTitleLink'> {item.titleLink}
+                 {item.titleLink &&
+                  <i class="fa fa-angle-right"></i>
+                 }
+                 </Card.Title>
               </div>
                 {item.links.map(link => {
                   return (

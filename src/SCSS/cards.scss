@@ -2,12 +2,52 @@
 
   background-color: rgb(64, 75, 99);
   color: grey;
+  width: 90%;
+  height: 10vh;
+  margin: auto;
+  font-size: 0.8em;
 
 }
 
 .cardImage {
 
-  width: 20%;
+  width: 25%;
+  height: 80%;
+  position: relative;
+  left: 72%;
+  top: 0.5em;
 
 }
+
+.cardBody {
+
+    width: 65%;
+    padding: 0rem;
+
+  }
+
+.cardText {
+
+    color: red;
+    position: relative;
+    bottom: 4.5em;
+    left: 1em;
+
+  }
+
+.cardLink {
+
+    position: relative;
+    left: 1em;
+    bottom: 5em;
+
+  }
+
+.accordionItem .fa-angle-right {
+
+   position: relative;
+  left: 12%;
+  bottom: 5em;
+
+  }
 

@@ -12,7 +12,10 @@ const Dropdowns = ({ subjects }) => {
            return (
             <div className='accordionNoLinks'>
               <div className='accordionTitle'> {item.title} </div>
-              <div className='learnMore'> {item.link} </div>
+              <div className='learnMore'> {item.links}
+              <i class="fa fa-angle-right"></i>
+              </div>
+
             </div>
             )
          }
@@ -27,11 +30,12 @@ const Dropdowns = ({ subjects }) => {
                    return (
                    <Card className='cards'>
                     <Card.Img className='cardImage' variant="top" src={card.image} />
-                    <Card.Body>
-                      <Card.Text>
+                    <Card.Body className= 'cardBody'>
+                      <Card.Text className= 'cardText'>
                         {card.header}
                       </Card.Text>
-                      <Card.Link href="#">{card.link}</Card.Link>
+                      <Card.Link className='cardLink' href="#">{card.link}</Card.Link>
+                      <i class="fa fa-angle-right"></i>
                     </Card.Body>
                   </Card>
                   )

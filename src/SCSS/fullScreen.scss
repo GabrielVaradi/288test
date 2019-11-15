@@ -6,6 +6,7 @@ $breakpoint-phone: 376px;
 
 }
 
+
 @media (min-width: $breakpoint-phone) {
 
 
@@ -65,13 +66,15 @@ $breakpoint-phone: 376px;
 
   }
 
-  .fa-angle-right {
+  .fullScreenCard .fa-angle-right {
 
     position: relative;
     left: 15%;
     top: 2em;
 
   }
+
+
 
 
 
@@ -106,6 +109,13 @@ $breakpoint-phone: 376px;
     margin-top: auto;
     margin-right: 4%;
 
+    .fa-angle-right {
+
+     position: relative;
+     left: 10%;
+
+    }
+
   }
 
   .fullScreenThemeLink {
@@ -122,6 +132,13 @@ $breakpoint-phone: 376px;
     display: flex;
     flex-direction: row;
 
+    .fa-angle-right {
+
+       position: relative;
+       left: 10%;
+
+    }
+
   }
 
   .oneLinkCard {
@@ -136,7 +153,7 @@ $breakpoint-phone: 376px;
 
     display: flex;
     align-items: center;
-    margin-left: 3%;
+    margin-left: -1%;
     position: relative;
     left: 10%;
     bottom: 0%;

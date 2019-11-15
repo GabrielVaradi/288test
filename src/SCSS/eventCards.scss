@@ -2,35 +2,81 @@ $breakpoint-phone: 376px;
 
 .eventCards  {
 
+  display: none;
+
+}
+
+.eventCardsSmall {
+
   width: 75%;
+  height: 16em;
   margin: unset;
   margin-top: 2%;
   margin-left: 2%;
   margin-bottom: 1%;
+  background-color: rgb(64, 75, 99);
+  border-radius: 10px;
+
 
 }
 
-.eventCardImage {
+.eventCardBodySmall {
+
+  padding: 0px;
+
+}
+
+.eventCardImageSmall {
 
   margin:auto;
-  width: 90%;
-  height: 90%;
-
+  height: 42%;
 
 }
 
-.eventCardTitle {
+.eventCardTitleSmall {
 
-margin: auto;
-margin-top: 20%;
-margin-bottom: 4%;
+  font-size: 1.1em;
+  margin-top: 3%;
+  margin-left: 2%;
 
 }
+
+.eventLinkSmall {
+
+  font-size: 0.8em;
+  margin-left: 2%;
+  color: white;
+
+  .fa-angle-right {
+
+  position: relative;
+  left: 5%;
+
+  }
+
+}
+
+.eventTextSmall {
+
+  font-size: 0.8em;
+  margin-left: 2%;
+  margin-bottom: 2em;
+
+}
+
+
 
 @media (min-width: $breakpoint-phone) {
 
+  .eventCardsSmall {
+
+    display: none;
+
+  }
+
   .eventCards  {
 
+  display: flex;
   width: 95%;
   height: 41em;
   margin: unset;

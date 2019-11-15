@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Important from './Important.js';
 import Dropdowns from './Dropdowns.js';
 import UpcomingEvents from './UpcomingEvents.js';
+import UpcomingEventsSmall from './UpcomingEventsSmall.js';
 import NeedHelp from './NeedHelp.js';
 import FullScreenDropdowns from './FullScreenDropdowns.js';
 import './App.scss';
@@ -87,6 +88,7 @@ class App extends Component {
           <Important/>
           <Dropdowns subjects={this.state.subjects}/>
           <UpcomingEvents events={this.state.upcomingEvents}/>
+          <UpcomingEventsSmall events={this.state.upcomingEvents}/>
           <NeedHelp/>
         </div>
           <FullScreenDropdowns subjects={this.state.subjects}/>
