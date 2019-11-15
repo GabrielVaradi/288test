@@ -1,0 +1,42 @@
+$breakpoint-phone: 376px;
+
+.eventCards  {
+
+  width: 75%;
+  margin: unset;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-bottom: 1%;
+
+}
+
+.eventCardImage {
+
+  margin:auto;
+  width: 90%;
+  height: 90%;
+
+
+}
+
+.eventCardTitle {
+
+margin: auto;
+margin-top: 20%;
+margin-bottom: 4%;
+
+}
+
+@media (min-width: $breakpoint-phone) {
+
+  .eventCards  {
+
+  width: 95%;
+  margin: unset;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-bottom: 1%;
+
+}
+
+}

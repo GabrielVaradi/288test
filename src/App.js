@@ -3,6 +3,7 @@ import Important from './Important.js';
 import Dropdowns from './Dropdowns.js';
 import UpcomingEvents from './UpcomingEvents.js';
 import NeedHelp from './NeedHelp.js';
+import FullScreenDropdowns from './FullScreenDropdowns.js';
 import './App.scss';
 
 class App extends Component {
@@ -79,12 +80,15 @@ class App extends Component {
   render() {
 
     return (
-      <React.Fragment>
-        <Important/>
-        <Dropdowns subjects={this.state.subjects}/>
-        <UpcomingEvents events={this.state.upcomingEvents}/>
-        <NeedHelp/>
-      </React.Fragment>
+      <div className='mainBox'>
+        <div className='leftBox'>
+          <Important/>
+          <Dropdowns subjects={this.state.subjects}/>
+          <UpcomingEvents events={this.state.upcomingEvents}/>
+          <NeedHelp/>
+        </div>
+          <FullScreenDropdowns subjects={this.state.subjects}/>
+      </div>
     );
   }
 }

@@ -1,3 +1,5 @@
+$breakpoint-phone: 376px;
+
 .needHelp {
 
   color: red;
@@ -13,5 +15,14 @@
 .phoneNumber {
 
   color: green;
+
+}
+
+@media (min-width: $breakpoint-phone) {
+
+  .needHelp {
+
+    width: 100%;
+  }
 
 }

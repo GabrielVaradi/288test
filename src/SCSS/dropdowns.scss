@@ -1,5 +1,4 @@
-
-  .accordionNoLinks {
+.accordionNoLinks {
 
     border-bottom-style: groove;
     margin-bottom: 5%;
@@ -23,7 +22,7 @@
 
     background-color: rgb(64, 75, 99);
 
-  }
+}
 
 .accordion {
 
@@ -31,30 +30,33 @@
   margin-left: 3%;
   margin-right: 3%;
 
-.accordionItem {
+  .accordionItem {
 
-  border-bottom-style: groove;
-  margin-bottom: 5%;
-  padding-bottom: 8px;
+    border-bottom-style: groove;
+    margin-bottom: 5%;
+    padding-bottom: 8px;
 
-  .accordionBody {
+    .accordionBody {
 
-    color : white;
+      color : white;
+
+    }
+
+    .accordionTitle {
+
+      color : grey;
+
+    }
+  }
+}
+
+@media (min-width: $breakpoint-phone) {
+
+  .accordion {
+
+    display: none;
 
   }
 
-  .accordionTitle {
-
-    color : grey;
-
   }
-
-
-
-
-}
-
-
-
-}
 

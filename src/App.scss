@@ -1,6 +1,9 @@
 @import '/SCSS/important';
 @import '/SCSS/dropdowns';
 @import '/SCSS/needHelp';
+@import '/SCSS/cards';
+@import '/SCSS/eventCards';
+@import '/SCSS/fullScreen';
 
 $breakpoint-phone: 376px;
 
@@ -17,6 +20,19 @@ body {
 
     background-color: white;
     color: black;
+
+  }
+
+  .mainBox {
+
+    display: flex;
+
+  }
+
+  .leftBox {
+
+    display: inline-block;
+    width: 26%;
 
   }
 

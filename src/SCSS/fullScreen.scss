@@ -1,0 +1,34 @@
+$breakpoint-phone: 376px;
+
+.fullScreenDropdowns {
+
+  display: none;
+
+}
+
+@media (min-width: $breakpoint-phone) {
+
+  .fullScreenDropdowns {
+
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+  }
+  .fullScreenCardImage {
+
+    width: 20%;
+    height: 20%;
+
+  }
+
+
+  .fullScreenThemes {
+
+    display: inline-block;
+    margin-bottom: 5%;
+    width: 100%;
+
+  }
+
+}

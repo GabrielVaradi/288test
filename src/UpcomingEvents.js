@@ -1,4 +1,6 @@
 import React from 'react';
+import { Card, Button } from 'react-bootstrap';
+
 
 const UpcomingEvents = ({ events }) => {
 
@@ -6,15 +8,16 @@ const UpcomingEvents = ({ events }) => {
       <div>
         {events.map(event => {
           return (
-            <div>
-              <div className="eventImage">
-                <img src={event.image} alt=""/>
-              </div>
-              <div> {event.title} </div>
-              <div> {event.text} </div>
-              <div> {event.link} </div>
-
-            </div>
+            <Card className='eventCards'>
+                    <Card.Title className='eventCardTitle'>{event.title}</Card.Title>
+                    <Card.Img className='eventCardImage' variant="top" src={event.image} />
+                    <Card.Body>
+                      <Card.Text>
+                        {event.text}
+                      </Card.Text>
+                      <Button variant="primary">{event.link}</Button>
+                    </Card.Body>
+                  </Card>
             )
         })}
 

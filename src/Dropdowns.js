@@ -1,5 +1,6 @@
 import React from 'react';
 import { Accordion, AccordionItem } from 'react-sanfona';
+import { Card } from 'react-bootstrap';
 
 
 const Dropdowns = ({ subjects }) => {
@@ -11,7 +12,7 @@ const Dropdowns = ({ subjects }) => {
            return (
             <div className='accordionNoLinks'>
               <div className='accordionTitle'> {item.title} </div>
-              <div className='learnMore'> Learn More </div>
+              <div className='learnMore'> {item.link} </div>
             </div>
             )
          }
@@ -24,13 +25,15 @@ const Dropdowns = ({ subjects }) => {
 
                   {item.cards.map(card => {
                    return (
-                   <div>
-                    <div> {card.header} </div>
-                    <div> {card.link} </div>
-                    <div className="accordionImage">
-                    <img src={card.image} alt=""/>
-                  </div>
-                  </div>
+                   <Card className='cards'>
+                    <Card.Img className='cardImage' variant="top" src={card.image} />
+                    <Card.Body>
+                      <Card.Text>
+                        {card.header}
+                      </Card.Text>
+                      <Card.Link href="#">{card.link}</Card.Link>
+                    </Card.Body>
+                  </Card>
                   )
                 })}
 
