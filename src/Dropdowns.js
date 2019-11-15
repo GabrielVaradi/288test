@@ -11,7 +11,7 @@ const Dropdowns = ({ subjects }) => {
          if (item.links.length === 1) {
            return (
             <div className='accordionNoLinks'>
-              <div className='accordionTitle'> {item.title} </div>
+              <div className='accordionTitleNoLinks'> {item.title} </div>
               <div className='learnMore'> {item.links}
               <i class="fa fa-angle-right"></i>
               </div>
@@ -23,7 +23,7 @@ const Dropdowns = ({ subjects }) => {
             <AccordionItem title={`${item.title}`} expanded={item === 1} className='accordionItem' expandedClassName='accordionExpanded' titleClassName='accordionTitle' bodyClassName='accordionBody'>
                 {item.links.map(link => {
                   return (
-                  <div>{link}</div>)
+                  <div className='accordionLinks'>{link}</div>)
                 })}
 
                   {item.cards.map(card => {

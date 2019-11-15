@@ -15,7 +15,9 @@ const UpcomingEvents = ({ events }) => {
                       <Card.Text className='eventText'>
                         {event.text}
                       </Card.Text>
-                      <Button className='eventButton' variant="primary">{event.link}</Button>
+                      <Button className='eventButton' variant="primary">{event.link}
+                      <i class="fa fa-angle-right"></i>
+                      </Button>
                     </Card.Body>
                   </Card>
             )

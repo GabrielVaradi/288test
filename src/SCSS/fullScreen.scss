@@ -20,6 +20,7 @@ $breakpoint-phone: 376px;
     flex-wrap: wrap;
     height: 87%;
     margin-left: 4%;
+    font-weight: bold;
 
   }
 
@@ -51,7 +52,7 @@ $breakpoint-phone: 376px;
 
   .fullScreenCardText {
 
-    color: red;
+    color: black;
     position: relative;
     top: 1em;
     left: 1em;
@@ -60,6 +61,8 @@ $breakpoint-phone: 376px;
 
   .fullScreenCardLink {
 
+    color: rgb(120, 120, 120);
+    font-size: 0.8em;
     position: relative;
     top: 2em;
     left: 1em;
@@ -71,11 +74,11 @@ $breakpoint-phone: 376px;
     position: relative;
     left: 15%;
     top: 2em;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: rgb(120, 120, 120);
 
   }
-
-
-
 
 
   .fullScreenThemes {
@@ -99,12 +102,17 @@ $breakpoint-phone: 376px;
     flex-direction: row;
     margin-top: 5%;
     margin-left: 5%;
+    color: rgb(120, 120, 120);
+    font-weight: bold;
+    font-size: 1em;
 
   }
 
   .fullScreenThemeTitleLink {
 
-    font-size: 0.9em;
+    font-size: 0.85em;
+    font-weight: bold;
+    color: rgb(120, 120, 120);
     margin-left: auto;
     margin-top: auto;
     margin-right: 4%;
@@ -121,6 +129,8 @@ $breakpoint-phone: 376px;
   .fullScreenThemeLink {
 
     margin-left: 5%;
+    font-size: 0.8em;
+    margin-bottom: 2%;
 
   }
 
@@ -157,6 +167,8 @@ $breakpoint-phone: 376px;
     position: relative;
     left: 10%;
     bottom: 0%;
+    font-size: 0.8em;
+    color: rgb(120, 120, 120);
   }
 
 }

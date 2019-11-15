@@ -1,20 +1,30 @@
 $breakpoint-phone: 376px;
 
+.contact {
+
+  margin-top: 4%;
+  margin-left: 5%;
+
+}
 .needHelp {
 
-  color: red;
+  color: white;
+  margin-bottom: 2%;
 
 }
 
 .customer {
 
-  color: blue;
+  color: grey;
+  font-size: 0.6em;
 
 }
 
 .phoneNumber {
 
-  color: green;
+  color: grey;
+  font-size: 0.6em;
+  text-decoration: underline;
 
 }
 
@@ -23,12 +33,29 @@ $breakpoint-phone: 376px;
   .contact {
 
     margin-left: 7%;
+    font-weight: bold;
 
   }
 
   .needHelp {
 
     width: 100%;
+    color: black;
+
+
   }
+
+  .customer {
+
+  font-size: 0.8em;
+
+}
+
+.phoneNumber {
+
+  font-size: 0.8em;
+  text-decoration: underline;
+
+}
 
 }

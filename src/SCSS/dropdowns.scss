@@ -2,7 +2,7 @@
 
 .accordionNoLinks {
 
-    border-bottom-style: groove;
+    border-bottom: 1px solid rgb(40, 53, 64);
     margin-bottom: 5%;
     padding-bottom: 8px;
 
@@ -10,12 +10,6 @@
 
   position: relative;
   left: 5%;
-
-  }
-
-  .accordionTitle {
-
-    color: grey;
 
   }
 
@@ -29,33 +23,45 @@
 
 .accordionExpanded {
 
-    background-color: rgb(64, 75, 99);
+    background-color: rgb(40, 53, 64);
 
 }
 
+.accordionTitle {
+
+      color: white;
+      font-size: 1em;
+
+  }
+
 .accordion {
 
-  background-color: rgb(31, 42, 58);
+  background-color: rgb(31, 38, 46);
   margin-left: 3%;
   margin-right: 3%;
 
   .accordionItem {
 
-    border-bottom-style: groove;
+    border-bottom: 1px solid rgb(40, 53, 64);
     margin-bottom: 5%;
     padding-bottom: 8px;
 
     .accordionBody {
 
       color: white;
+      margin-left: 3%;
+      margin-top: 3%;
+
 
     }
 
-    .accordionTitle {
+      .accordionLinks {
 
-      color: grey;
+        margin-bottom: 3%;
 
-    }
+      }
+
+
   }
 }
 

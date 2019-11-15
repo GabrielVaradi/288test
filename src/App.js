@@ -37,7 +37,7 @@ class App extends Component {
           {
               header: 'The red-winged warbler is a bird species in the family Cisticolidae',
               link: 'Learn more',
-              image: 'https://www.iconsdb.com/icons/preview/pink/square-xxl.png'
+              image: 'http://www.annemillsrecruitment.co.uk/wp-content/uploads/2016/02/Dark-Grey-Square-300x270.jpg'
           }
          ]
         },
@@ -58,7 +58,7 @@ class App extends Component {
             {
               header: 'The House of Rothschild is available for free download',
               link: 'Learn more',
-              image: 'https://www.iconsdb.com/icons/preview/pink/square-xxl.png'
+              image: 'https://www.roze.co.uk/ekmps/shops/rozepetal/images/bothside-same-coloured-paper-l-blue-6-inch-15-cm-square-15-sheets-ok050--3294-p.gif'
             }
           ]
         },
@@ -72,7 +72,7 @@ class App extends Component {
           title : 'Upcoming events',
           text : 'In some cases an observatory would move to a new location, or the equatorial telescope itself would be removed',
           link : 'Get your tickets now',
-          image: 'https://www.iconsdb.com/icons/preview/pink/square-xxl.png'
+          image: 'https://www.roze.co.uk/ekmps/shops/rozepetal/images/bothside-same-coloured-paper-l-blue-6-inch-15-cm-square-15-sheets-ok050--3294-p.gif'
         }
       ]
     };
