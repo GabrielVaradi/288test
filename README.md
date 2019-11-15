@@ -8,5 +8,5 @@
 
 ## Final Product
 
-!["Full Screen"]()
-!["Mobile"]()
+!["Full Screen"](https://github.com/GabrielVaradi/288test/blob/master/docs/288FullScreen.png)
+!["Mobile"](https://github.com/GabrielVaradi/288test/blob/master/docs/288Phone.png)
