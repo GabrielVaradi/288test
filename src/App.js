@@ -12,7 +12,7 @@ class App extends Component {
     this.state = {
       subjects: [
         {
-          title: 'Development',
+          title: 'Development of Rockwood',
           links: ['Learn Rockwood history', '20th Century', 'Notable People', 'Early History'],
           cards: [
             {
@@ -25,10 +25,12 @@ class App extends Component {
         {
           title: 'Briggs City',
           links: ['History of this town', 'Where is Briggs', 'Further reading'],
+          titleLink: 'Learn More',
           cards: []
         },
         {
           title: 'Red-winged warbler',
+          titleLink: 'See all birds',
           links: [],
           cards: [
           {

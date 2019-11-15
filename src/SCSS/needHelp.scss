@@ -6,7 +6,7 @@ $breakpoint-phone: 376px;
 
 }
 
-.contact {
+.customer {
 
   color: blue;
 
@@ -19,6 +19,12 @@ $breakpoint-phone: 376px;
 }
 
 @media (min-width: $breakpoint-phone) {
+
+  .contact {
+
+    margin-left: 7%;
+
+  }
 
   .needHelp {
 

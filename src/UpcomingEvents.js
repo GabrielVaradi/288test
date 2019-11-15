@@ -12,10 +12,10 @@ const UpcomingEvents = ({ events }) => {
                     <Card.Title className='eventCardTitle'>{event.title}</Card.Title>
                     <Card.Img className='eventCardImage' variant="top" src={event.image} />
                     <Card.Body>
-                      <Card.Text>
+                      <Card.Text className='eventText'>
                         {event.text}
                       </Card.Text>
-                      <Button variant="primary">{event.link}</Button>
+                      <Button className='eventButton' variant="primary">{event.link}</Button>
                     </Card.Body>
                   </Card>
             )

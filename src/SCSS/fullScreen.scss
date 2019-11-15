@@ -8,30 +8,138 @@ $breakpoint-phone: 376px;
 
 @media (min-width: $breakpoint-phone) {
 
+
+
   .fullScreenDropdowns {
 
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 74%;
     column-count: 2;
     flex-wrap: wrap;
-    height: 100%;
+    height: 87%;
+    margin-left: 4%;
 
   }
+
+  .fullScreenCard {
+
+    line-height: normal;
+    border: none;
+    border-top: 1px solid rgba(0,0,0,.125);
+    border-radius: 0px;
+
+  }
+
   .fullScreenCardImage {
 
     width: 20%;
     height: 20%;
+    position: relative;
+    left: 75%;
+    bottom: 2.5em;
 
   }
+
+  .fullScreenCardBody {
+
+    width: 65%;
+    padding: 0rem;
+
+  }
+
+  .fullScreenCardText {
+
+    color: red;
+    position: relative;
+    top: 1em;
+    left: 1em;
+
+  }
+
+  .fullScreenCardLink {
+
+    position: relative;
+    top: 2em;
+    left: 1em;
+
+  }
+
+  .fa-angle-right {
+
+    position: relative;
+    left: 15%;
+    top: 2em;
+
+  }
+
 
 
   .fullScreenThemes {
 
     display: inline-block;
-    margin-bottom: 5%;
-    width: 100%;
+    margin-top: 4%;
+    width: 46%;
 
+  }
+
+  .fullScreenTitles {
+
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .fullScreenThemeTitle {
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 5%;
+
+  }
+
+  .fullScreenThemeTitleLink {
+
+    font-size: 0.9em;
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: 4%;
+
+  }
+
+  .fullScreenThemeLink {
+
+    margin-left: 5%;
+
+  }
+
+  .fullScreenThemesOneLink {
+
+    display: inline-block;
+    margin-top: 4%;
+    width: 46%;
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .oneLinkCard {
+
+    width: 60%;
+    margin-top: 4%;
+    margin-left: 3%;
+
+  }
+
+  .oneLink {
+
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    position: relative;
+    left: 10%;
+    bottom: 0%;
   }
 
 }

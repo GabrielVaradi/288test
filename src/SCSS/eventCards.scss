@@ -32,11 +32,45 @@ margin-bottom: 4%;
   .eventCards  {
 
   width: 95%;
+  height: 41em;
   margin: unset;
   margin-top: 2%;
-  margin-left: 2%;
-  margin-bottom: 1%;
+  margin-left: 7%;
+  margin-bottom: 7%;
+  background-color: black;
+  color: white;
+  box-shadow: 0 20px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-}
+  }
+
+  .eventCardImage {
+
+  margin:auto;
+  width: 90%;
+  height: 38%;
+
+  }
+
+  .eventCardTitle {
+
+    margin: auto;
+    margin-top: 28%;
+    margin-bottom: 4%;
+
+  }
+
+  .eventText {
+
+     text-align: center;
+     margin-bottom: 15%;
+
+  }
+
+  .eventButton {
+
+    margin: 0 auto;
+    display: block;
+
+  }
 
 }
